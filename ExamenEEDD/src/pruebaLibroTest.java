@@ -12,11 +12,4 @@ class pruebaLibroTest {
 		assertTrue(l.checkISBN10());
 
 	}
-
-	@Test
-	@DisplayName(value = "Creamos un libro valido")
-	public void testCrearLibro() throws Exception {
-		libro libro = new libro("El nombre del viento", "9788499082479", "Patrick Rothfus", "DEBOLSILLO");
-		assertTrue(libro.checkISBN13());
-	}
 }
